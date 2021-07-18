@@ -3,7 +3,7 @@ import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from userbot.helper import functions as darkdef
+from userbot.helper import functions as phantordef
 from var import Var
 from userbot.functions import dcfunction as topfunc
 
@@ -131,7 +131,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DARK-COBRA/DARKCOBRA.git")
+    "https://github.com/ComradeDear/PHANTORBOT.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
