@@ -8,7 +8,7 @@ from userbot import CMD_HELP
 from userbot import AUTONAME
 
 
-DEFAULTUSER = str(AUTONAME) if AUTONAME else "DARK-COBRA"
+DEFAULTUSER = str(AUTONAME) if AUTONAME else "PHANTORBOT"
 
 @borg.on(admin_cmd(pattern=r"deploy"))
 
@@ -39,8 +39,8 @@ async def _(event):
             "**Process exited with** `status 143`",
             "**Starting process with command** `python3 -m stdborg`",
             "**State changed from starting to up**",
-            "__INFO:DARKCOBRA:Logged in as 557667062__",
-            "__INFO:DARKCOBRA:Successfully loaded all plugins__",
+            "__INFO:PHANTORBOT:Logged in as 557667062__",
+            "__INFO:PHANTORBOT:Successfully loaded all plugins__",
             "**Build Succeeded**"
 
  ]
