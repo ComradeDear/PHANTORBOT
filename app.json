@@ -1,7 +1,7 @@
 {
   "name": "�FIGHTERBOT",
   "description": "The best and most awaited userbot made by @DEAR_COMRADEE with ❤ ",
-  "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
+  "logo": "https://telegra.ph/file/dde3045462b1acaaf1349.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/ComradeDear/PHANTORBOT/",
   "website": "https://github.com/ComradeDear/PHANTORBOT/",
-  "success_url": "https://t.me/",
+  "success_url": "https://t.me/phantorbot_support",
   "stack": "container",
   "env": {
     "ENV": {
@@ -45,23 +45,11 @@
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
-    },
-    "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": ""
-    },
-    "PRIVATE_GROUP_ID": {
-      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
    },
     "TAG_LOG": {
       "description": "Create a group where u want ur tags logs will come add rose bot then get id ,set value, if not then leave blank  ",
       "value": "",
       "required" : true
-    },
-    "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
     }, 
     "STRING_SESSION": {
       "description": " ",
