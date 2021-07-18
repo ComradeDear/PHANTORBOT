@@ -5,7 +5,7 @@ from telethon.sessions import StringSession
 from telethon import TelegramClient
 from userbot.helper import functions as phantordef
 from var import Var
-from userbot.functions import dcfunction as topfunc
+from userbot.functions import pbfunction as topfunc
 
 
 os.system("pip3 install aria2p")
