@@ -13,7 +13,7 @@ import random
 from telethon import events, version
 from userbot.utils import admin_cmd, sudo_cmd
 from userbot import ALIVE_NAME, Lastupdate
-from . import dcdef
+from . import pbdef
 from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "PHANTORBOT USER"
