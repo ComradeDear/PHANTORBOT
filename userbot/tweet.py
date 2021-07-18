@@ -10,9 +10,9 @@ async def moditweet(text):
     r = requests.get(
         f"https://nekobot.xyz/api/imagegen?type=tweet&text={text}&username=narendramodi"
     ).json()
-    dc = r.get("message")
-    cobra = url(dc)
-    if not cobra:
+    pb = r.get("message")
+    phantor = url(pb)
+    if not phantor:
         return "check syntax once more"
     with open("hehe.png", "wb") as f:
         f.write(requests.get(dc).content)
@@ -25,9 +25,9 @@ async def sunnytweet(text):
     r = requests.get(
         f"https://nekobot.xyz/api/imagegen?type=tweet&text={text}&username=sunnyleone"
     ).json()
-    dc = r.get("message")
-    cobra = url(dc)
-    if not cobra:
+    pb = r.get("message")
+    phantor = url(pb)
+    if not phantor:
         return "check syntax once more"
     with open("hehe.png", "wb") as f:
         f.write(requests.get(dc).content)
@@ -39,9 +39,9 @@ async def johnnytweet(text):
     r = requests.get(
         f"https://nekobot.xyz/api/imagegen?type=tweet&text={text}&username=johnnysins"
     ).json()
-    dc = r.get("message")
-    cobra = url(dc)
-    if not cobra:
+    pb = r.get("message")
+    phantor = url(pb)
+    if not phantor:
         return "check syntax once more"
     with open("hehe.png", "wb") as f:
         f.write(requests.get(dc).content)
